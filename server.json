@@ -10,9 +10,9 @@
   ],
   "repository": {
     "source": "github",
-    "url": "https://github.com/pplgift/ppl"
+    "url": "https://github.com/ppl-crm/ppl"
   },
   "title": "ppl - Personal CRM for AI Agents",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "websiteUrl": "https://ppl.gift"
 }
