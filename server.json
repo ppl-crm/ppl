@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Personal CRM operated by AI agents. Read relationship context before acting, write back after.",
+  "name": "gift.ppl/ppl",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ppl.gift/mcp"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/dbhurley/ppl-gift"
+  },
+  "title": "ppl - Personal CRM for AI Agents",
+  "version": "1.2.0",
+  "websiteUrl": "https://ppl.gift"
+}
