@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "description": "Personal CRM operated by AI agents. Read relationship context before acting, write back after.",
-  "name": "io.github.pplgift/ppl",
+  "name": "io.github.dbhurley/ppl",
   "remotes": [
     {
       "type": "streamable-http",
