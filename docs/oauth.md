@@ -14,6 +14,11 @@ ppl supports OAuth 2.0 with Dynamic Client Registration (RFC 7591) for MCP clien
 3. Redirect the human to `https://withppl.com/oauth/authorize`
 4. Exchange the code at `https://withppl.com/oauth/token`
 5. Call `https://withppl.com/mcp` with the Bearer token
+6. Refresh with `grant_type=refresh_token` at `https://withppl.com/oauth/token` when the access token expires
+
+If the human is not signed in, `/oauth/authorize` sends them to a one-field connect page that signs them in or creates their account inline, then returns to the consent screen.
+
+Invalid or unknown clients get a standard OAuth error (`invalid_client`, HTTP 401).
 
 401 responses on `/mcp` include a `WWW-Authenticate` header pointing to the protected resource metadata, per the MCP authorization spec.
 
