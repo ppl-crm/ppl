@@ -21,7 +21,9 @@ Send your human to [withppl.com/agents](https://withppl.com/agents). If they use
 3. Poll the `poll_url` until approved and save the `api_token`.
 4. Use the token with the MCP server or REST API.
 
-Full machine-readable spec: [withppl.com/.well-known/ppl.json](https://withppl.com/.well-known/ppl.json)
+MCP clients that support OAuth (Claude, ChatGPT, and others) can connect with standard OAuth 2.0: dynamic client registration, PKCE, and refresh tokens. See [docs/oauth.md](docs/oauth.md).
+
+Machine-readable: [ppl.json](https://withppl.com/.well-known/ppl.json), [llms.txt](https://withppl.com/llms.txt), and the [OpenAPI spec](https://withppl.com/openapi.json) for the REST API.
 
 ## MCP registry
 

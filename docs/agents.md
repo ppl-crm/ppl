@@ -25,7 +25,7 @@ See the README for the one-approval connect flow. Your human approves once at th
 | `ask_memory` | Semantic search over everything |
 | `import_contacts` | Bulk import up to 50 contacts |
 
-Full tool list: 85 tools over the hosted MCP server at `https://withppl.com/mcp`.
+Full tool list: 86 tools over the hosted MCP server at `https://withppl.com/mcp`.
 
 ## Pre-approval preview
 
