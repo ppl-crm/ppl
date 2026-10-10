@@ -4,11 +4,13 @@
 
 ppl is the personal CRM for humans with AI agents. Your relationships, notes, journal, tasks, and reminders live here. Your AI reads from it before acting, and writes to it after acting.
 
+Read about [ppl](https://withppl.com/about), [choosing a personal CRM](https://withppl.com/personal-crm), or [importing your contacts](https://withppl.com/blog/import-contacts-into-a-personal-crm).
+
 ## Connect your AI
 
 **Hosted MCP server:** `https://withppl.com/mcp`
 
-ppl is hosted-only. There is no downloadable server. Your agent connects over Streamable HTTP with a Bearer token.
+The hosted service is available now. A self-hosted version is coming soon. Your agent connects over Streamable HTTP with a Bearer token.
 
 ### One-click setup
 
@@ -31,7 +33,7 @@ Registered as `io.github.ppl-crm/ppl` in the official MCP registry. See [server.
 
 ## Examples
 
-- [Python MCP client](examples/python/) - connect with the MCP Python SDK
+- [Python briefing examples](examples/python/) - a dependency-free REST client and an MCP SDK client
 - [Node MCP client](examples/node/) - connect with the MCP TypeScript SDK
 - [ppl-memory PyPI package](https://pypi.org/project/ppl-memory/) - LangGraph, CrewAI, and AutoGen adapters
 
