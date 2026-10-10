@@ -2,9 +2,11 @@
 
 **Relational memory for you and your AI.**
 
-ppl is the personal CRM for humans with AI agents. Your relationships, notes, journal, tasks, and reminders live here. Your AI reads from it before acting, and writes to it after acting.
+ppl is a personal CRM for you and the AI assistants you choose. Keep contacts, conversation notes, birthdays and follow-ups together. Work in the browser or authorize an assistant to use the same records.
 
 Read about [ppl](https://withppl.com/about), [choosing a personal CRM](https://withppl.com/personal-crm), or [importing your contacts](https://withppl.com/blog/import-contacts-into-a-personal-crm).
+
+The [guides and free tools](https://withppl.com/resources) cover client setup, product comparisons and contact migration. Start with your client’s [Claude](https://withppl.com/guides/claude), [ChatGPT](https://withppl.com/guides/chatgpt), [Cursor](https://withppl.com/guides/cursor), or [VS Code](https://withppl.com/guides/vscode-copilot) guide. Before importing, the [local CSV checker](https://withppl.com/tools/contact-import-checker) can flag common file issues without uploading your contacts. Writers and directory maintainers can use the [press kit](https://withppl.com/brand/press-kit) for current product facts, the original logo and public screenshots.
 
 ## Connect your AI
 
