@@ -39,16 +39,16 @@ python3 -m pip install 'mcp>=1,<2'
 python3 briefing.py
 ```
 
-This example lists the tools and calls `agent.briefing.get`. Pinning the SDK's major
+This example checks for a credential, initializes MCP and calls `agent.briefing.get`. It checks tool errors, handles structured or text results, and closes the session and transport even after a failed request. Missing credentials stop before connecting. Errors do not dump private SDK transport details. Pinning the SDK's major
 version keeps these imports consistent. OAuth-capable MCP clients can instead
 connect to `https://withppl.com/mcp` through the normal approval flow; see
 [the OAuth guide](../../docs/oauth.md).
 
 ## Verification
 
-The REST example has tests for successful JSON responses, missing credentials,
-authorization failures, and connection failures. They use mocked HTTP responses
-and make no requests to a real account:
+The REST and MCP examples have tests for successful responses, missing credentials,
+failed calls, safe error output and MCP session cleanup. They use mocked HTTP
+responses and SDK objects and make no requests to a real account:
 
 ```sh
 python3 -m unittest discover -s examples/python -p 'test_*.py'
