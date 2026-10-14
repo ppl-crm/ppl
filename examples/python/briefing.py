@@ -24,7 +24,7 @@ async def main():
             tools = await session.list_tools()
             print(f"Available tools: {len(tools.tools)}")
 
-            briefing = await session.call_tool("get_briefing", {})
+            briefing = await session.call_tool("agent.briefing.get", {})
             print(briefing.content[0].text)
 
 

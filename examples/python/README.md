@@ -39,7 +39,7 @@ python3 -m pip install 'mcp>=1,<2'
 python3 briefing.py
 ```
 
-This example lists the tools and calls `get_briefing`. Pinning the SDK's major
+This example lists the tools and calls `agent.briefing.get`. Pinning the SDK's major
 version keeps these imports consistent. OAuth-capable MCP clients can instead
 connect to `https://withppl.com/mcp` through the normal approval flow; see
 [the OAuth guide](../../docs/oauth.md).
