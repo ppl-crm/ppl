@@ -8,6 +8,8 @@ Read about [ppl](https://withppl.com/about), [choosing a personal CRM](https://w
 
 The [guides and free tools](https://withppl.com/resources) cover client setup, product comparisons and contact migration. Start with your client’s [Claude](https://withppl.com/guides/claude), [ChatGPT](https://withppl.com/guides/chatgpt), [Cursor](https://withppl.com/guides/cursor), or [VS Code](https://withppl.com/guides/vscode-copilot) guide. Before importing, the [local CSV checker](https://withppl.com/tools/contact-import-checker) can flag common file issues without uploading your contacts. Writers and directory maintainers can use the [press kit](https://withppl.com/brand/press-kit) for current product facts, the original logo and public screenshots.
 
+Developer home: [ppl-crm.github.io](https://ppl-crm.github.io). Try the [fictional relationship-memory demo](https://huggingface.co/spaces/dbhurley/ppl-personal-crm) without connecting an account.
+
 ## Connect your AI
 
 **Hosted MCP server:** `https://withppl.com/mcp`
