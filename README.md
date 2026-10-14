@@ -16,15 +16,15 @@ Developer home: [ppl-crm.github.io](https://ppl-crm.github.io). Try the [fiction
 
 The hosted service is available now. A self-hosted version is coming soon. Your agent connects over Streamable HTTP with a Bearer token.
 
-### One-click setup
+### Start with your client
 
-Send your human to [withppl.com/agents](https://withppl.com/agents). If they use Cursor and are logged in, it's one click. New users get an account created inline, no signup form first.
+Use [the connection guide](https://withppl.com/agents) for client setup or [the developer guide](https://withppl.com/developers) for authentication, permissions, starter recipes and recovery. New users can create an account during connection and verify email ownership. Some clients require a separate configuration step; available features can depend on account plans and administrator settings.
 
 ### Agent connection flow
 
 1. `POST https://withppl.com/api/agent/connect/request` with `{"client_name": "Your agent"}`
-2. Show the human the `approve_url`. They approve once (creating an account inline if needed).
-3. Poll the `poll_url` until approved and save the `api_token`.
+2. Show the human the `approve_url`. They sign in or create an account, verify email ownership and review the requested permissions.
+3. Poll the returned `poll_url` conservatively until approved and save the one-time `api_token` in a protected credential store. Stop on denial or expiration.
 4. Use the token with the MCP server or REST API.
 
 MCP clients that support OAuth (Claude, ChatGPT, and others) can connect with standard OAuth 2.0: dynamic client registration, PKCE, and refresh tokens. See [docs/oauth.md](docs/oauth.md).
@@ -43,7 +43,7 @@ Registered as `io.github.ppl-crm/ppl` in the official MCP registry. See [server.
 
 ## Docs
 
-- [Agent integration guide](docs/agents.md) - session prescription, tools, and patterns
+- [Agent integration guide](docs/agents.md) - task-scoped workflows, tools, and patterns
 - [OAuth for MCP clients](docs/oauth.md) - Dynamic Client Registration flow
 
 ## License
