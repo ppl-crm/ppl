@@ -20,6 +20,24 @@ The hosted service is available now. A self-hosted version is coming soon. Your 
 
 Use [the connection guide](https://withppl.com/agents) for client setup or [the developer guide](https://withppl.com/developers) for authentication, permissions, starter recipes and recovery. New users can create an account during connection and verify email ownership. Some clients require a separate configuration step; available features can depend on account plans and administrator settings.
 
+### Codex CLI
+
+Codex supports Streamable HTTP MCP servers with OAuth and Dynamic Client Registration. Add ppl, then sign in:
+
+```bash
+codex mcp add ppl --url https://withppl.com/mcp
+codex mcp login ppl
+```
+
+Or add it to `~/.codex/config.toml` and run `codex mcp login ppl`:
+
+```toml
+[mcp_servers.ppl]
+url = "https://withppl.com/mcp"
+```
+
+The login opens ppl in your browser to approve access. New to ppl? [Create a free account](https://withppl.com/register) (free beta, up to 1,000 contacts). Run `codex mcp list` to confirm the server, or `/mcp` inside the Codex TUI. See the [Codex MCP docs](https://developers.openai.com/codex/mcp).
+
 ### Agent connection flow
 
 1. `POST https://withppl.com/api/agent/connect/request` with `{"client_name": "Your agent"}`
