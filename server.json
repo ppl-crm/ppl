@@ -2,13 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.ppl-crm/ppl",
   "title": "ppl - Personal CRM for AI Agents",
-  "description": "ppl: the personal CRM for AI agents. Structured relationship memory over hosted MCP.",
+  "description": "ppl personal CRM: contacts, relationship notes, birthdays and follow-ups for AI agents. Hosted MCP.",
   "websiteUrl": "https://withppl.com",
   "repository": {
     "url": "https://github.com/ppl-crm/ppl",
     "source": "github"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "remotes": [
     {
       "type": "streamable-http",

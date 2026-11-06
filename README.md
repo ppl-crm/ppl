@@ -1,6 +1,6 @@
 # ppl
 
-**Relational memory for you and your AI.**
+**The personal CRM for you and your AI.**
 
 ppl is a personal CRM for you and the AI assistants you choose. Keep contacts, conversation notes, birthdays and follow-ups together. Work in the browser or authorize an assistant to use the same records.
 
@@ -51,7 +51,13 @@ Machine-readable: [ppl.json](https://withppl.com/.well-known/ppl.json), [llms.tx
 
 ## MCP registry
 
-Registered as `io.github.ppl-crm/ppl` in the official MCP registry. See [server.json](server.json).
+Registered as `io.github.ppl-crm/ppl` in the official MCP registry. See [server.json](server.json). The former `io.github.dbhurley/ppl` registration is deprecated; use the ppl-crm record and the hosted endpoint above.
+
+The product name is **ppl**, lowercase. `withppl.com` is its website, not its name. This is the personal CRM for contacts and relationships, unrelated to the utility, music licensing, insurance and parcel companies named PPL.
+
+Current listings: [Smithery](https://smithery.ai/servers/ppl/ppl) and the [Glama connector](https://glama.ai/mcp/connectors/io.github.ppl-crm/ppl). The live MCP catalog has 120 tools; discover the current catalog at connection time. Directory caches can lag behind the service.
+
+The hosted beta is free for up to 1,000 contacts, with no credit card required. Pro at $8/month and self-hosting are coming soon and are not available to purchase or install yet. See [current pricing](https://withppl.com/pricing).
 
 ## Examples
 
